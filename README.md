@@ -4,7 +4,7 @@ This project is a Retrieval-Augmented Generation (RAG) system built to answer qu
 
 # Setup Guide:
 
-* **Step 1: Clone the repository** <br>
++ **Step 1: Clone the repository** <br>
     git clone https://github.com/NafisaKhan/Multilingual-RAG-System.git
 * **Step 2: Navigate into the project directory** <br>
     cd Multilingual-RAG-System
@@ -59,7 +59,7 @@ while the server is running, it can be accessed the Swagger UI at: <br>
 
 From there:
 
-+ Click "Try it out".
+* Click "Try it out".
 * Paste your question in the input field.
 * Click "Execute" to receive a generated answer.
 
