@@ -11,7 +11,7 @@ A **Retrieval-Augmented Generation (RAG)** system for generating answers to Bang
 + **Step 2: Navigate into the project directory** <br>
     <pre> cd Multilingual-RAG-System </pre>
 + **Step 3: Create a virtual environment** <br>
-    <pre> <pre> python -m venv venv </pre>
+    <pre> python -m venv venv </pre>
 + **Step 4: Activate the virtual environment (Windows)** <br>
     <pre> venv\Scripts\activate </pre>
 + **Step 5: Install required packages** <br>
