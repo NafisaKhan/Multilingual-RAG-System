@@ -19,7 +19,7 @@ This project is a Retrieval-Augmented Generation (RAG) system built to answer qu
 * **Step 7: Run the main file (entry-point)** <br>
     python main.py
 * **Step 8: Start the FastAPI server** <br>
-    uvicorn api:app --reload
+    uvicorn rest_api.api:app --reload
 * **Step 9: Open the frontend in Streamlit UI** <br>
     streamlit run app.py
 
