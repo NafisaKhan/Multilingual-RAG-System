@@ -4,24 +4,24 @@ This project is a Retrieval-Augmented Generation (RAG) system built to answer qu
 
 # Setup Guide:
 
-. Step 1: Clone the repository
+* Step 1: Clone the repository
   git clone https://github.com/NafisaKhan/Multilingual-RAG-System.git
-. Step 2: Navigate into the project directory
+* Step 2: Navigate into the project directory
   cd Multilingual-RAG-System
-. Step 3: Create a virtual environment
+* Step 3: Create a virtual environment
   python -m venv venv
-. Step 4: Activate the virtual environment
+* Step 4: Activate the virtual environment
   On Windows: venv\Scripts\activate
   On macOS/Linux: source venv/bin/activate
-. Step 5: Install required packages
+* Step 5: Install required packages
   pip install -r requirements.txt
-. Step 6: Create a .env file with your Gemini API key and inside .env file add the line:
+* Step 6: Create a .env file with your Gemini API key and inside .env file add the line:
   GEMINI_API_KEY=your-gemini-api-key-here
-. Step 7: Run the main file (entry-point)
+* Step 7: Run the main file (entry-point)
   python main.py
-. Step 8: Start the FastAPI server
+* Step 8: Start the FastAPI server
   uvicorn api:app --reload
-. Step 9: Open the frontend in Streamlit UI
+* Step 9: Open the frontend in Streamlit UI
   streamlit run app.py
 
 
