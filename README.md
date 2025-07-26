@@ -52,22 +52,33 @@ Sample generated answers and chat history are available in the `outputs/` folder
 - [chat_history.txt](outputs/chat_history.txt) — Short-term memory of user–system conversations 
 
 # API Documentation:
+This project includes an interactive API interface powered by **FastAPI**.<br>
 
-The FastAPI Swagger UI is available at http://127.0.0.1:8000/docs/ when the server is running. Click the "Try it out" button on the right, enter your question in the input box, and click "Execute" to see the answer.
+while the server is running, it can be accessed the Swagger UI at: <br>
+        http://127.0.0.1:8000/docs/
 
-Example:
+From there:
+
++ Click "Try it out".
+* Paste your question in the input field.
+* Click "Execute" to receive a generated answer.
+
+Demo:
 ![FastAPI Swagger UI - API Testing Demo](demo_images/FastAPI_demo.png)
 
 
 # Evaluation Matrix:
 
-The evaluation script compares generated answers against sample test cases using the following metrics.  
+The system includes an evaluation script that compares generated answers against predefined test cases.
+
+Evaluation results are saved to:  
 [View Evaluation Metrics Results](rag_tests/evaluation_results.csv)
 
-- **Human Match**: Whether the generated answer exactly matches the expected answer  
-- **Groundedness**: Whether the generated answer appears in the retrieved document chunks  
-- **Relevance**: Whether the expected answer appears in the retrieved document chunks  
-- **Cosine Similarity Score**: Similarity score from FAISS-based retrieval
+The following metrics are used:
+- **Human Match**: Whether the generated answer exactly matches the expected answer
+- **Groundedness**: Whether the answer content is found in the retrieved chunks 
+- **Relevance**: Whether the expected answer exists within the same retrieved chunks 
+- **Cosine Similarity Score**: Similarity score between the query and top retrieved chunk based on FAISS
 
 
 # Assessment Question-Answers:
