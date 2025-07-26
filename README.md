@@ -7,23 +7,23 @@ A **Retrieval-Augmented Generation (RAG)** system for generating answers to Bang
 ## **Setup Guide**
 
 + **Step 1: Clone the repository** <br>
-    git clone https://github.com/NafisaKhan/Multilingual-RAG-System.git
+    <pre> git clone https://github.com/NafisaKhan/Multilingual-RAG-System.git </pre>
 + **Step 2: Navigate into the project directory** <br>
-    cd Multilingual-RAG-System
+    <pre> cd Multilingual-RAG-System </pre>
 + **Step 3: Create a virtual environment** <br>
-    <pre> python -m venv venv </pre>
-+ **Step 4: Activate the virtual environment on Windows** <br>
-    venv\Scripts\activate
+    <pre> <pre> python -m venv venv </pre>
++ **Step 4: Activate the virtual environment (Windows)** <br>
+    <pre> venv\Scripts\activate </pre>
 + **Step 5: Install required packages** <br>
-    pip install -r requirements.txt
-+ **Step 6: Create a .env file with your Gemini API key and add the line:** <br>
-    GEMINI_API_KEY=your-gemini-api-key-here
+    <pre> pip install -r requirements.txt </pre>
++ **Step 6: Create a .env file and add Gemini API key** <br>
+    <pre> GEMINI_API_KEY=gemini-api-key-here </pre>
 + **Step 7: Run the main file (entry-point)** <br>
-    python main.py
+    <pre> python main.py </pre>
 + **Step 8: Start the FastAPI server** <br>
-    uvicorn rest_api.api:app --reload
-+ **Step 9: Open the frontend in Streamlit UI** <br>
-    streamlit run app.py
+    <pre> uvicorn rest_api.api:app --reload </pre>
++ **Step 9: Launch the Streamlit frontend** <br>
+    <pre> streamlit run app.py </pre>
 
 
 ## **Used Tools, Libraries, and Packages**
