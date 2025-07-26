@@ -1,6 +1,7 @@
-# Multilingual RAG System
+## Multilingual RAG System
 
 A **Retrieval-Augmented Generation (RAG)** system for generating answers to Bangla and English questions from an HSC Bangla 1st Paper PDF using semantic similarity and Gemini (LLM) for context-aware responses.
+![Streamlit UI Demo](demo_images/streamlit_ui.png)
 
 # Setup Guide:
 
@@ -20,7 +21,7 @@ A **Retrieval-Augmented Generation (RAG)** system for generating answers to Bang
     python main.py
 + **Step 8: Start the FastAPI server** <br>
     uvicorn rest_api.api:app --reload
-* **Step 9: Open the frontend in Streamlit UI** <br>
++ **Step 9: Open the frontend in Streamlit UI** <br>
     streamlit run app.py
 
 
@@ -70,8 +71,7 @@ Demo:
 
 The system includes an evaluation script that compares generated answers against predefined test cases.
 
-Evaluation results are saved to:  
-[View Evaluation Metrics Results](rag_tests/evaluation_results.csv)
+Evaluation results are saved to: [View Evaluation Metrics Results](rag_tests/evaluation_results.csv)
 
 The following metrics are used:
 - **Human Match**: Whether the generated answer exactly matches the expected answer
