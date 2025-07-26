@@ -1,24 +1,24 @@
 # Multilingual RAG System
 
-This project is a Retrieval-Augmented Generation (RAG) system built to answer questions from knowledge-base, specifically HSC Bangla 1st Paper PDF. It supports both Bangla and English queries and uses semantic similarity search combined with LLM (Gemini) for generating context-based answers.
+A **Retrieval-Augmented Generation (RAG)** system for generating answers to Bangla and English questions from an HSC Bangla 1st Paper PDF using semantic similarity and Gemini (LLM) for context-aware responses.
 
 # Setup Guide:
 
 + **Step 1: Clone the repository** <br>
     git clone https://github.com/NafisaKhan/Multilingual-RAG-System.git
-* **Step 2: Navigate into the project directory** <br>
++ **Step 2: Navigate into the project directory** <br>
     cd Multilingual-RAG-System
-* **Step 3: Create a virtual environment** <br>
++ **Step 3: Create a virtual environment** <br>
     python -m venv venv
-* **Step 4: Activate the virtual environment on Windows** <br>
++ **Step 4: Activate the virtual environment on Windows** <br>
     venv\Scripts\activate
-* **Step 5: Install required packages** <br>
++ **Step 5: Install required packages** <br>
     pip install -r requirements.txt
-* **Step 6: Create a .env file with your Gemini API key and add the line:** <br>
++ **Step 6: Create a .env file with your Gemini API key and add the line:** <br>
     GEMINI_API_KEY=your-gemini-api-key-here
-* **Step 7: Run the main file (entry-point)** <br>
++ **Step 7: Run the main file (entry-point)** <br>
     python main.py
-* **Step 8: Start the FastAPI server** <br>
++ **Step 8: Start the FastAPI server** <br>
     uvicorn rest_api.api:app --reload
 * **Step 9: Open the frontend in Streamlit UI** <br>
     streamlit run app.py
@@ -54,8 +54,7 @@ Sample generated answers and chat history are available in the `outputs/` folder
 # API Documentation:
 This project includes an interactive API interface powered by **FastAPI**.<br>
 
-while the server is running, it can be accessed the Swagger UI at: <br>
-        http://127.0.0.1:8000/docs/
+While the server is running, the Swagger UI can be accessed at: http://127.0.0.1:8000/docs/
 
 From there:
 
