@@ -4,7 +4,7 @@ This project is a Retrieval-Augmented Generation (RAG) system built to answer qu
 
 # Setup Guide:
 
-* **Step 1: Clone the repository**
+* **Step 1: Clone the repository** <br>
     git clone https://github.com/NafisaKhan/Multilingual-RAG-System.git
 * **Step 2: Navigate into the project directory**
     cd Multilingual-RAG-System
@@ -67,7 +67,7 @@ The evaluation script compares generated answers against sample test cases using
 - **Cosine Similarity Score**: Similarity score from FAISS-based retrieval
 
 
-# Assessment Questions:
+# Assessment Question-Answers:
 
 * **What method or library did you use to extract the text, and why? Did you face any formatting challenges with the PDF content?** <br>
 I used pdf2image to convert PDF pages into images and then applied pytesseract to extract text using OCR. I also tested libraries like PyMuPDF (fitz) for direct text parsing, but OCR gave more accurate results, especially with Bangla text. <br>
@@ -87,7 +87,7 @@ I am using cosine similarity to compare the vector for the question with the vec
 * **How do you ensure meaningful comparison of questions and document chunks? What would happen if the query is vague or missing context?** <br>
 To ensure meaningful comparison, I include both the retrieved document chunks and the recent chat history as part of the prompt sent to the Gemini model. This short-term memory gives the model extra context, which is especially helpful for follow-up or unclear questions. If the query is vague or lacks context, the system might return a generic reply or just say "No answer found". In that case, the user might need to rephrase the question to help the model understand it better.
 
-* **Do the results seem relevant? If not, what might improve them?**
+* **Do the results seem relevant? If not, what might improve them?** <br>
 In my experience, the results weren’t always reliable. While the retrieval system and prompt formatting were working, the Gemini model often responded with "No answer found", even when there were relevant chunks available. This could be due to OCR errors, poorly aligned chunks, or insufficient information being passed to the model. <br>
 To improve results in the future, I’d focus on using a better OCR engine for Bangla, smarter chunking that separates MCQs from descriptive answers, and possibly a stronger model like GPT-4. More precise prompts and cleaner chunk structure would also help produce better responses.
 
