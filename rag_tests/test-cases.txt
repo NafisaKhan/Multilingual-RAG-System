@@ -1,0 +1,8 @@
+User Question: অনুপমের ভাষায় সুপুরুষ কাকে বলা হয়েছে?
+Expected Answer: শুম্ভুনাথ
+
+User Question: কাকে অনুপমের ভাগ্য দেবতা বলে উল্লেখ করা হয়েছে?
+Expected Answer: মামাকে
+
+User Question: বিয়ের সময় কল্যাণীর প্রকৃত বয়স কত ছিল?
+Expected Answer: ১৫ বছর

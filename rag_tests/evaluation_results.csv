@@ -1,0 +1,4 @@
+Test Case,Question,Expected,Predicted,Human-Labeled Match,Grounded,Relevant,Cosine Similarity (Top 1)
+1,অনুপমের ভাষায় সুপুরুষ কাকে বলা হয়েছে?,শুম্ভুনাথ,No answer found.,No,No,No,0.3413
+2,কাকে অনুপমের ভাগ্য দেবতা বলে উল্লেখ করা হয়েছে?,মামাকে,No answer found.,No,No,No,0.3028
+3,বিয়ের সময় কল্যাণীর প্রকৃত বয়স কত ছিল?,১৫ বছর,No answer found.,No,No,No,0.3967
