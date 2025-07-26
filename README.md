@@ -1,6 +1,6 @@
 # Multilingual RAG System
 
-This project is a Retrieval-Augmented Generation (RAG) system built to answer questions from knowledge-base, specifically HSC Bangla 1st Paper PDFs. It supports both Bangla and English queries and uses semantic similarity search combined with LLM (Gemini) for generating context-based answers.
+This project is a Retrieval-Augmented Generation (RAG) system built to answer questions from knowledge-base, specifically HSC Bangla 1st Paper PDF. It supports both Bangla and English queries and uses semantic similarity search combined with LLM (Gemini) for generating context-based answers.
 
 # Setup Guide:
 
@@ -41,8 +41,8 @@ This project is a Retrieval-Augmented Generation (RAG) system built to answer qu
 * requests: Used in app.py to send POST requests from Streamlit to the FastAPI backend.
 * pandas: Used in rag_evaluation.py to manage evaluation result storage and CSV export.
 * regex: Used in text_chunking.py and pdf_preprocessor.py for pattern matching and cleanup.
-* * tqdm:Used in main.py to show progress during processing.
-* numpy: Imported as a dependency for other libraries (FAISS).
+* tqdm:Used in main.py to show progress during processing.
+* numpy: Imported as a dependency for other libraries.
 
 
 # Sample Queries and Outputs:
@@ -53,7 +53,7 @@ This project is a Retrieval-Augmented Generation (RAG) system built to answer qu
 The FastAPI Swagger UI is available at http://127.0.0.1:8000/docs/ when the server is running. Click the "Try it out" button on the right, enter your question in the input box, and click "Execute" to see the answer.
 
 Example:
-![FastAPI Swagger UI - API Testing Demo](assets/fast_api_demo.png)
+![FastAPI Swagger UI - API Testing Demo](demo_images/fast_api_demo.png)
 
 
 # Evaluation Matrix:
