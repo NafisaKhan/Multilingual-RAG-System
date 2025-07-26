@@ -1,6 +1,7 @@
 # **Multilingual RAG System**
 
 A **Retrieval-Augmented Generation (RAG)** system for generating answers to Bangla and English questions from an HSC Bangla 1st Paper PDF using semantic similarity and LLM (Gemini) for context-aware responses.
+
 ![Streamlit UI Demo](demo_images/Streamlit_demo.png)
 
 ## **Setup Guide**
