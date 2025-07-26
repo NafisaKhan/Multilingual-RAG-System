@@ -43,7 +43,7 @@ A **Retrieval-Augmented Generation (RAG)** system for generating answers to Bang
 * requests: Used in *app.py* to send POST requests from Streamlit to the FastAPI backend.
 * pandas: Used in *rag_evaluation.py* to manage evaluation result storage and CSV export.
 * regex: Used in *text_chunking.py* and *pdf_preprocessor.py* for pattern matching and cleanup.
-* tqdm:Used in *main.py* to show progress during processing.
+* tqdm: Used in *main.py* to show progress during processing.
 * numpy: Imported as a dependency for other libraries.
 
 
